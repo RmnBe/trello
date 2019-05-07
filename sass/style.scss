@@ -2,8 +2,7 @@ body {
 	background-color: #7EC3B0;
 }
 .board {
-	text-align: center;
-	margin: auto;
+	display: block;
 }
 .column {
 	border: 1px solid black;
@@ -11,14 +10,10 @@ body {
 	display: block;
 	max-width: 30%;
 	width:250px;
-
+}
 .column-container {
 	display: block;
-	margin: auto;
-
 }
-
 .card {
 	background-color: #85CDCA;
-
 }
