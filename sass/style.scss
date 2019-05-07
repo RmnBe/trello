@@ -1,19 +1,54 @@
 body {
-	background-color: #7EC3B0;
+	background-color: #F7F9FB;
+	font-family: 'Lato', sans-serif;
 }
 .board {
-	display: block;
+	text-align: center;
+	margin: 20px;
 }
 .column {
 	border: 1px solid black;
-	background-color: #E27D5F;
-	display: block;
-	max-width: 30%;
-	width:250px;
+	background-color: #5085A6;
+	max-width: 100%;
+	width:350px;
+	height: 400px;
+	overflow: auto;
+	margin: 10px;
 }
 .column-container {
-	display: block;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	max-width: 100%;
 }
 .card {
-	background-color: #85CDCA;
+	background-color: #8FC1E3;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 1.5em;
+
+}
+ul {
+	list-style-type: none;
+	padding: 10px;
+}
+li {
+	margin: 0;
+	text-align: center;
+}
+.btn-delete {
+	justify-content: flex-end;
+	background-color: #31708E;
+	border: 2px solid #31708E;
+	border-radius: 5px;
+	color: #8FC1E3;
+	margin: 2px;
+}
+.create-column, .add-card {
+	background-color: #31708E;
+	border: 2px solid #31708E;
+	border-radius: 5px;
+	color: #8FC1E3;
+}
+.card-description {
+	margin: 2px;
 }
