@@ -1,0 +1,24 @@
+body {
+	background-color: #7EC3B0;
+}
+.board {
+	text-align: center;
+	margin: auto;
+}
+.column {
+	border: 1px solid black;
+	background-color: #E27D5F;
+	display: block;
+	max-width: 30%;
+	width:250px;
+
+.column-container {
+	display: block;
+	margin: auto;
+
+}
+
+.card {
+	background-color: #85CDCA;
+
+}
